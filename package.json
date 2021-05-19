@@ -1,10 +1,11 @@
 {
   "name": "gulp4-frontend-workflow",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTML and SCSS workflow using Gulp V4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "build": "gulp prod"
   },
   "keywords": [
     "Gulp V4",
@@ -25,6 +26,7 @@
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^1.0.2",
     "gulp-imagemin": "^7.1.0",
     "gulp-postcss": "^9.0.0",
     "gulp-replace": "^1.1.3",

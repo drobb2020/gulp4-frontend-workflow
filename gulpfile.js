@@ -1,7 +1,8 @@
 const { src, dest, watch, series, parallel } = require("gulp");
 
 // CSS & SCSS requirements
-const sass = require("gulp-sass");
+// const sass = require("gulp-sass");
+const sass = require("gulp-dart-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
 const combinemq = require("postcss-combine-media-query");
@@ -23,7 +24,7 @@ const imagemin = require("gulp-imagemin");
 const replace = require("gulp-replace");
 const browserSync = require("browser-sync").create();
 
-// SCSS to Minified CSS ***DEV***
+// SCSS to CSS ***DEV***
 function scssDevTask() {
   return src("app/scss/main.scss", { sourcemaps: true })
     .pipe(
