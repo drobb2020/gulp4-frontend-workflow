@@ -29,7 +29,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/drobb2020/readme-template">
-    <img src="images/logo2.png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Gulp V4 Frontend Workflow</h3>
@@ -77,16 +77,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-This is a blank template for new projects. To avoid retyping too much info. **Do a search and replace with your text editor for the following:**
-`drobb2020`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+This is a template to create a frontend workflow using node.js, gulp v4 and SASS for new projects.
 
 ### Built With
 
-* []()
-* []()
-* []()
+* [Node.js]()
+* [Gulp v4]()
+* [SASS]()
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -95,12 +92,16 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You will need to have Node.js installed locally to use this repository.
 
-* npm
+* node.js
+
+  Go to [Node](https://nodejs.org/en/) and download the latest version and install.
+
+* Install gulp
 
   ```sh
-  npm install npm@latest -g
+  npm install -g gulp
   ```
 
 ### Installation
@@ -108,10 +109,10 @@ This is an example of how to list things you need to use the software and how to
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/drobb2020/repo_name.git
+   git clone https://github.com/drobb2020/gulp4-frontend-workflow.git
    ```
 
-2. Install NPM packages
+2. Install the required NPM packages
 
    ```sh
    npm install
@@ -120,14 +121,12 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+This repo will generate a boilerplate to begin a new web development project using sass as the CSS preprocessor. The gulpfile also handles JavaScript and images along with the scss files.
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/drobb2020/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/drobb2020/repo_name/issues) for a list of proposed features (and known issues). This is currently a work-in-progress.
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -155,9 +154,7 @@ Project Link: [https://github.com/drobb2020/repo_name](https://github.com/drobb2
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* [The Coder Coder](https://github.com/thecodercoder)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
