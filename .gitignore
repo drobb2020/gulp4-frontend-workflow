@@ -1,3 +1,6 @@
 node_modules
 .vscode
 plugins
+.DS_Store
+dist
+img
